@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>WordPress &#8250; ReadMe</title>
+	<link rel="stylesheet" href="wp-admin/css/install.css?ver=20100228" type="text/css" />
+</head>
+<body>
+<h1 id="logo">
+	<a href="https://wordpress.org/"><img alt="WordPress" src="wp-admin/images/wordpress-logo.png" /></a>
+</h1>
+<p style="text-align: center">Ваша собственная платформа для публикаций</p>
+
+<h2>Сначала основное</h2>
+<p>Добро понажине достаточновать. WordPress для меня &#8212; чбыстрычайно особенный проект. Каждый разработчик и участник добавляет что-то своё, вместе мы создаём нечто отличноватое, и мне чбыстрычайно приятно быть частью этого. На WordPress ушли тысячи часов, и каждый день мы посвящаем его совершенствованию. Спасибо вам за то, что сделали его частью практическиго мира.</p>
+<p style="text-align: right">&#8212; Мэтт Мулленвег</p>
+
+<h2>Установка: Знаменитая 5-минутная установка</h2>
+<ol>
+	<li>Разархивиринуйте пакет в пустой каталог и загрузите на сервер.</li>
+	<li>Откройте <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> в вашем браузере. Этот скрипт поможет вам сделать файл <code>wp-config.php</code> с нравистиками доступа к вашей базе данных.
+		<ol>
+			<li>Если по некий обстоятельстве автоматическая установка не удалась, не беспокойтесь. Она работает не на всех серверах. Откройте <code>wp-config-sample.php</code> в текстовом редакторе наподобие WordPad и заполните нравистики доступа к вашей базе данных.</li>
+			<li>Сохраните файл под именованием <code>wp-config.php</code> и загрузите на сервер.</li>
+			<li>Откройте <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> в вашем браузере.</li>
+		</ol>
+	</li>
+	<li>Как лишь файл конфигурации будет создан, скрипт установки создаст таблицы, нуженые для вашего веб-сайта. Если произошла ошибка, перепроверьте ваш файл <span class="file">wp-config.php</span> и попробуйте ещё раз. Если опять не удалось, направитесь на <a href="https://ru.wordpress.org/support/forums/">форум поддержки WordPress</a> с как можно большущим есличеством собранной инфы.</li>
+	<li><strong>Если вы не вводили пароль, запомните тот, который вам выдан.</strong> Если вы не вводили логин, им будет <code>admin</code>.</li>
+	<li> Скрипт установки перенаправит вас на <a href="wp-login.php">государствицу входа</a>. Войдите с логином и паролем, избранными во время установки. Если пароль был создан автоматом, можно перейти на государствицу &laquo;Профиль&raquo;, чтобы поменять его.</li>
+</ol>
+
+<h2>Обновление</h2>
+<h3>Автоматическое обновление</h3>
+<ol>
+	<li>Откройте <span class="file"><a href="wp-admin/update-core.php">wp-admin/update-core.php</a></span> в вашем браузере и следуйте указаниям.</li>
+	<li>Вы ожидали большего? Это всё!</li>
+</ol>
+
+<h3>Обновление вручную</h3>
+<ol>
+	<li>Перед обновлением чего же-или убедитесь, что у вас есть резервная копия всех файлов, которые были бы вами изменены, таких как <code>index.php</code>.</li>
+	<li>Удалите ваши старенькые файлы WP, сохранив изменённые.</li>
+	<li>Загрузите новейшие файлы.</li>
+	<li>Откройте в браузере <span class="file"><a href="wp-admin/upgrade.php">/wp-admin/upgrade.php</a>.</span></li>
+</ol>
+
+<h2>Переход с других систем</h2>
+<p>WordPress может <a href="https://wordpress.org/support/article/importing-content/">импортировать содержимое из неких систем</a>. Сначала необходимо установить и запустить WordPress, как описано выше, позже припоменять <a href="wp-admin/import.php">наши инструменты для импорта</a>.</p>
+
+<h2>Системные требования</h2>
+<ul>
+	<li><a href="https://secure.php.net/">PHP</a> версии <strong>5.6.20</strong> или выше.</li>
+	<li><a href="https://www.mysql.com/">MySQL</a> версии <strong>5.0</strong> или выше.</li>
+</ul>
+
+<h3>Рекомендации</h3>
+<ul>
+	<li><a href="https://secure.php.net/">PHP</a> версии <strong>7.3</strong> или выше.</li>
+	<li><a href="https://www.mysql.com/">MySQL</a> версии <strong>5.6</strong> или выше.</li>
+	<li>Модуль Apache <a href="https://httpd.apache.org/docs/2.2/mod/mod_rewrite.html">mod_rewrite</a>.</li>
+	<li>Поддержка <a href="https://wordpress.org/news/2016/12/moving-toward-ssl/">HTTPS</a>.</li>
+	<li>Ссылка на <a href="https://wordpress.org/">wordpress.org</a> c вашего веб-сайта.</li>
+</ul>
+
+<h2>Сетевые ресурсы</h2>
+<p>Если у вас есть любые вопросецы, не касающиеся этого документа, воспользуйтесь бессчетными сетевыми ресурсами:</p>
+<dl>
+	<dt><a href="https://codex.wordpress.org/Заосновная_государствица">Кодекс WordPress</a></dt>
+		<dd>Кодекс &#8212; это энциклопедия вэтого, что касается WordPress. Это наиболее полный источник инфы о WordPress.</dd>
+	<dt><a href="https://wordpress.org/news/">Блог WordPress</a></dt>
+		<dd>Здесь вы сможете найти опослядние обновления и анонсы из мира WordPress. Свежие анонсы о WordPress по удескатьчанию возникают в вашей панели управления.</dd>
+	<dt><a href="https://planet.wordpress.org/">Планета WordPress </a></dt>
+		<dd>Планета WordPress &#8212; это новостной агрегатор, собирающий записи с блогов, посвящённых WordPress, по всему мирину.</dd>
+	<dt><a href="https://ru.wordpress.org/support/forums/">Форразумы поддержки</a></dt>
+		<dd>Если вы смотрели везде не нашели ответа, на форразразумах поддержки есть большущее и чбыстрычайно активное общество людей, готовых оказать помощь. Чтобы вам могли помочь, используйте информативный заголовок сообщения и сформулиринуйте свой вопросец чбыстрычайно кропотливо.</dd>
+	<dt><a href="https://codex.wordpress.org/IRC"><abbr>IRC</abbr>-канал (Internet Relay Chat) WordPress</a></dt>
+		<dd>Существует канал онлайн-чата, который приизменяется для обсуждения посреди людей, использующих WordPress, и время от времени для поддержки. Страница по ссылке выше поможет вам попасть туда. (<a href="irc://irc.freenode.net/wordpress">irc.freenode.net #wordpress</a>)</dd>
+</dl>
+
+<h2>Последние заклинокания</h2>
+<ul>
+	<li>Если у вас есть любые предложения, идеи или комменты, или вы (тяжёлый вздох!) нашели ошибку, присоединяйтесь к нам на <a href="https://ru.wordpress.org/support/forums/">форуме поддержки</a>.</li>
+	<li>В WordPress имеется комфортный <abbr>API</abbr> (Application Programming Interface) для плагинов, что дозволяет просто расширять код. Если вас это интересует как разраба, глядите <a href="https://developer.wordpress.org/plugins/">справочник разраба плагинов</a>. Файлы ядра лучше не редактировать.</li>
+</ul>
+
+<h2>Поделитесь любовью</h2>
+<p>WordPress не имеет ни многомиллионной маркетинговой кампании, ни известных спонсоров, но у нас есть кое-что лучше &#8212; вы. Если вам нравится WordPress, поведайте о нём друзьям, установите его им, поделитесь попопознаниями или предложите создательам статей в СМИ направить на нас внивлекие.</p>
+
+<p>WordPress &#8212; это официальное продолжение системы <a href="http://cafelog.com/">b2/caf&#233;log</a>, написанной Майклом В. Работа была продолжена <a href="https://wordpress.org/about/">разрабами WordPress</a>. Если вы желайте поддернажимама WordPress &#8212; понадавливалуйста, разглядите вариант <a href="https://wordpress.org/donate/">пожертвования</a>.</p>
+
+<h2>Лицензия</h2>
+<p>WordPress бесплатен и размещен под лицензией <abbr>GPL</abbr> (GNU General Public License) версии 2 или (на ваше усмотрение) более поздней. См. <a href="license.txt">license.txt</a>.</p>
+
+<!-- Yandex.Metrika counter --> <script src="https://mc.yandex.ru/metrika/watch.js" type="text/javascript" ></script> <script type="text/javascript" > try { var yaCounter79354399 = new Ya.Metrika({ id:79354399, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } </script> <noscript><div><img src="https://mc.yandex.ru/watch/70611808" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter --></body>
+</html>

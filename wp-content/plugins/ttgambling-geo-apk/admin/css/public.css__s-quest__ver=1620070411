@@ -1,0 +1,11 @@
+html body a.ttg-apk {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@media (max-width: 990px) {
+  html body a.ttg-apk {
+    opacity: 1;
+    visibility: visible;
+  }
+}
