@@ -1,0 +1,36 @@
+User-agent: GoogleBot
+Allow: *.js
+Allow: *.css
+Allow: *.png
+Allow: *.jpg
+Allow: /wp-content/*.js
+Allow: /wp-content/*.css
+Allow: /wp-content/*.png
+Allow: /wp-content/*.jpg
+Allow: /wp-content/*.svg
+Allow: /wp-content/*.apk
+Allow: /wp-content/themes/
+Disallow: /wp-login.php
+Disallow: /go
+Disallow: /wp-register.php
+Disallow: /wp-json/
+Disallow: /cgi-bin/
+Disallow: /uncategorized/
+Disallow: /author/
+Disallow: */feed/
+Disallow: */trackback/
+Disallow: /go
+Disallow: */turbo/*
+Disallow: */resources.xml/
+Disallow: /?repeat=w3tc
+Disallow: /category/
+Disallow: /feed/turbopage/
+Disallow: /feed/turbopost/
+Disallow: /feed/turbopost/*
+Disallow: /payments/
+Disallow: /?p=*
+
+Sitemap: https://play-fortyna.github.io/sitemap.xml
+
+User-agent: ia_archiver
+Disallow: /
